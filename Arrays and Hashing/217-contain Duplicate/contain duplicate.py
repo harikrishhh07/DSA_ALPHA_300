@@ -1,8 +1,8 @@
 class Solution(object):
     def containsDuplicate(self, nums):
-        seen = set()
+        seen = {}
         for num in nums:
             if num in seen:
                 return True
-            seen.add(num)
+            seen[num]=True
         return False
