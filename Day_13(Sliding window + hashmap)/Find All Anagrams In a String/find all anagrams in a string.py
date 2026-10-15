@@ -1,4 +1,3 @@
-
 class Solution:
     def findAnagrams(self, s, p):
         if len(p) > len(s):
