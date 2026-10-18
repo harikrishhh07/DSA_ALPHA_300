@@ -43,4 +43,4 @@
 <ul>
 <li>Frequency counting: <code>O(n)</code> average time using a dictionary</li>
 <li>Manual sorting: <code>O(m²)</code>, where <code>m</code> is the number of distinct characters</li>
-</ul>
+</ul>x
