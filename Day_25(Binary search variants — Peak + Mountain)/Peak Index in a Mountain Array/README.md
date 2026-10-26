@@ -5,7 +5,6 @@
 <hr>
 
 Given a **mountain array** `arr`, return the index of its peak element.
-
 An array is considered a mountain array if:
 
 1. Its length is at least `3`.
