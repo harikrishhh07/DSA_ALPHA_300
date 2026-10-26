@@ -10,7 +10,7 @@ class Solution:
                 lo = mid + 1
             else:
                 hi = mid
-
+                
         peak = lo
         lo = 0
         hi = peak
@@ -31,7 +31,6 @@ class Solution:
         while lo <= hi:
             mid = lo + (hi - lo) // 2
             value = mountain_arr.get(mid)
-
             if value == target:
                 return mid
             elif value < target:
